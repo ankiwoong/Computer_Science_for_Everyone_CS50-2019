@@ -1,13 +1,17 @@
 #include <cs50.h>
 #include <stdio.h>
 
+const int N = 3;
+
 int main(void)
 {
     // int score1 = 72;
     // int score2 = 73;
     // int score3 = 33;
 
-    int score[3];
+    // int score[3];
+    int score[N];
+
     score[0] = 72;
     score[1] = 73;
     score[2] = 33;
