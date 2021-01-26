@@ -33,3 +33,14 @@
     * 문자 : char
 
     * 문자열 : string
+
+* 문자열의 활용
+    * strlen : 문자열의 길이
+        ```c
+        #include <string.h>
+        ```
+
+    * toupper : 소문자를 대문자로 변경
+        ```c
+        #include <ctype.h>
+        ```
