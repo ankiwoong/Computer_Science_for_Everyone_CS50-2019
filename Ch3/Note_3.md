@@ -44,3 +44,10 @@
         ```c
         #include <ctype.h>
         ```
+
+* 명령행 인자
+    * 명령행 인자 : 컴파일 후 저장하고자 하는 파일명과 같이 추가적인 정보를 줄때 사용
+    
+    * argv : arguments count / main 함수에 전달된 인수의 갯수
+    
+    * argc : arguments vector / 가변적인 개수의 문자열
