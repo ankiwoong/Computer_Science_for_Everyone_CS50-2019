@@ -18,3 +18,11 @@
 
 * 문자열 복사
     * malloc : 정해진 크기 만큼 메모리를 할당하는 함수
+
+* 메모리 할당과 해제
+    * free
+    
+    * valgrind : 메모리와 관련된 문제 여부 확인
+    ```c
+    help50 valgrind ./filename
+    ```
