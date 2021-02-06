@@ -65,3 +65,7 @@
     int fclose(FILE* stream);
     ```
 
+* 파일 읽기
+    * JPEG
+    
+    * fread
