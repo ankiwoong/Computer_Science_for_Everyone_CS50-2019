@@ -33,3 +33,35 @@
     * 힙
     
     * 포인터
+
+* 파일 쓰기
+    * scanf
+    ```c
+    #include <stdio.h>
+
+    int scanf(const char * restrict format, ...);
+    ```
+
+    * fopen
+    ```c
+    FILE * fopen( const char *, const char * );
+
+    첫번째 인자 : 처리할 파일 명 
+
+    두번째 인자 : 파일 처리 종류 지정 (모드) 
+    ```
+
+    * fprintf
+    ```c
+    #include <stdio.h>
+
+    int fprintf(FILE* stream, const char* format, ...);
+    ```
+
+    * fclose
+    ```c
+    #include <stdio.h>
+
+    int fclose(FILE* stream);
+    ```
+
