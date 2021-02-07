@@ -67,5 +67,12 @@
 
 * 파일 읽기
     * JPEG
+    ```
+    FF D8 FF FE 00	.jpeg		JPG Graphical File
+    FF D8 FF E1	.jpg		JPG Graphical File
+    ```
     
     * fread
+
+    * File Magic Numbers
+    https://en.wikipedia.org/wiki/List_of_file_signatures
